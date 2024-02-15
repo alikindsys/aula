@@ -1,10 +1,5 @@
-#import "../Core/base.typst": aula, color-table
-#import "../Core/alias.typst": *
+#import "../Core/prelude.typst": *
 
-#import "../Core/packages.typst": acrostiche, oxifmt, gloss-awe
-#import gloss-awe: gls
-
-#import oxifmt: strfmt
 
 #let glossario-matematica = (
     Função:(
@@ -18,5 +13,4 @@
 
 #let matematica(doc) = [
 #show: aula(materia: [Matemática], glossary: glossario-matematica, doc);
-
 ]
