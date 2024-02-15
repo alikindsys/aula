@@ -9,7 +9,7 @@
 ## Como criar uma nova matéria
 *Opcional:* Crie uma nova pasta com o nome dessa matéria.
 
-Crie um novo arquivo `.typst` com o nome dessa matéria, esse arquivo será a base de todos arquivos que forem desta mesma matéria.
+Crie um novo arquivo `.typ` com o nome dessa matéria, esse arquivo será a base de todos arquivos que forem desta mesma matéria.
 ```typst
 // Tema aula
 #import "../Core/prelude.typst": *
@@ -24,7 +24,7 @@ Crie um novo arquivo `.typst` com o nome dessa matéria, esse arquivo será a ba
 
 Para usar sua matéria, crie um novo arquivo e use:
 ```typst
-#import "portugues.typst"
+#import "portugues.typ"
 
 #show: portugues
 
@@ -32,6 +32,6 @@ Para usar sua matéria, crie um novo arquivo e use:
 Descrição que você desejar
 ```
 
-Veja um exemplo em [test.typst](test.typst). [Renderizado](test.pdf)
+Veja um exemplo em [test.typ](test.typ). [Renderizado](test.pdf)
 
 

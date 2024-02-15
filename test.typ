@@ -1,4 +1,4 @@
-#import "./Core/prelude.typst": *
+#import "./Core/prelude.typ": *
 
 #let teste(doc) = [
     #show: aula(materia: [Aula - Teste], glossary: (), doc)

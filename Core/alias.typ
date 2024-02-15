@@ -1,4 +1,4 @@
-#import "base.typst": pt_abstract, pt_error, pt_tip, pt_info, pt_question, pt_memo, pt_task, pt_conclusion, pt_success, pt_warning, pt_example, pt_quote
+#import "base.typ": pt_abstract, pt_error, pt_tip, pt_info, pt_question, pt_memo, pt_task, pt_conclusion, pt_success, pt_warning, pt_example, pt_quote
 
 #let resumo = pt_abstract
 #let dica = pt_tip

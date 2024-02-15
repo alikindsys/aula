@@ -1,4 +1,4 @@
-#import "packages.typst": chic-hdr, gentle-clues, gloss-awe, oxifmt, tablem, tablex
+#import "packages.typ": chic-hdr, gentle-clues, gloss-awe, oxifmt, tablem, tablex
 
 #import chic-hdr: *
 #import gentle-clues: *
