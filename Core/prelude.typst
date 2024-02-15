@@ -1,0 +1,6 @@
+#import "base.typst": aula, color-table
+#import "alias.typst": *
+
+#import "packages.typst": gloss-awe, oxifmt
+#import gloss-awe: gls, gls-add
+#import oxifmt: strfmt
