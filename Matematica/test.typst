@@ -1,0 +1,53 @@
+#import "math.typst" : *
+
+#show: matematica
+
+= Equações do Segundo Grau
+
+#dica(title:"Formula de Bhaskara")[
+$ x' = (-b plus sqrt(Delta))/(2a)$
+$ x'' = (-b minus sqrt(Delta))/(2a)$
+$ Delta = b^2 - 4a c$
+]
+
+// #gls[Função]
+
+#memo()[
+    Quando $Delta &= 0$ a função tem *uma* solução real.
+
+    Quando $Delta &> 0$ a função tem *duas* soluções reais.
+
+    Quando $Delta &< 0$ a função tem *nenhuma* solução real.
+]
+
+= Extensão do `gentle-clues` para português
+#advertencia[`#advertencia[]`]
+#cita[`#cita[]`]
+#conclusao[`#conclusao[]`]
+#dica[`#dica[]`]
+#erro[`#erro[]`]
+#exemplo[`#exemplo[]`]
+#info[`#info[]`]
+#memo[`#memo[]`]
+#pergunta[`#pergunta[]`]
+#resumo[`#resumo[]`]
+#sucesso[`#sucesso[]`]
+#tarefa[`#tarefa[]`]
+
+= Tablelas coloridas
+
+`#color-table(blue)`
+#color-table(blue)[
+  | *Name* | *Location* | *Height* | *Score* |
+  | ------ | ---------- | -------- | ------- |
+  | John   | Second St. | 180 cm   |  5      |
+  | Wally  | Third Av.  | 160 cm   |  10     |
+]
+
+`#color-table(rgb("#af5ff5"))`
+#color-table(rgb("#af5ff5"))[
+  | *Name* | *Location* | *Height* | *Score* |
+  | ------ | ---------- | -------- | ------- |
+  | John   | Second St. | 180 cm   |  5      |
+  | Wally  | Third Av.  | 160 cm   |  10     |
+]
