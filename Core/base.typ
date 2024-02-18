@@ -118,6 +118,11 @@ make-glossary(glossary)
   ..args
 )
 
+#let pt_step(title: auto, ..args) = task(
+  title: if (title != auto) { title } else {"Passo-a-passo"},
+  ..args
+)
+
 #let pt_conclusion(title: auto, ..args) = conclusion(
   title: if (title != auto) { title } else {"Conclusão"},
   ..args
