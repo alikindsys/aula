@@ -14,6 +14,14 @@
 
 set heading(numbering: "1.")
 
+show ref: it => {
+  set text(blue)
+  let fields = it.fields()
+  let keys = fields.keys()
+
+  link(it.target, [#underline([#it.supplement])])
+}
+
 set page(
   paper: "a4",
   // ABNT 
