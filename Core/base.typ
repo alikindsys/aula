@@ -161,8 +161,9 @@ make-glossary(glossary)
   ..args
 )
 
-
-
+#let attn(it) = {
+  text(red, it)
+}
 
 
 
