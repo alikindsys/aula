@@ -37,7 +37,7 @@ set text(
 )
 
 set par(
-  justify: true,
+  justify: false,
   linebreaks: "optimized"
 )
 
