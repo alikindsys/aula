@@ -12,6 +12,8 @@
   doc
 ) = {
 
+set heading(numbering: "1.")
+
 set page(
   paper: "a4",
   // ABNT 
