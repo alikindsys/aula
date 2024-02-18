@@ -4,3 +4,4 @@
 #import "packages.typ": gloss-awe, oxifmt, acrostiche, cetz
 #import gloss-awe: gls, gls-add
 #import oxifmt: strfmt
+#import acrostiche: *
