@@ -1,4 +1,4 @@
-#import "../Core/prelude.typst": *
+#import "../Core/prelude.typ": *
 
 
 #let glossario-matematica = (
