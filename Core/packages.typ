@@ -30,3 +30,6 @@
 
 // Number, Units typesetting
 #import "@preview/unify:0.4.3" as unify
+
+// CeTZ
+#import "@preview/cetz:0.2.0" as cetz
