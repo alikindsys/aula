@@ -1,4 +1,4 @@
-#import "base.typ": aula, color-table
+#import "base.typ": aula, color-table, attn
 #import "alias.typ": *
 
 #import "packages.typ": gloss-awe, oxifmt, acrostiche, cetz
